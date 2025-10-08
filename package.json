@@ -1,15 +1,32 @@
 {
   "name": "redfin-playwright",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "type": "commonjs",
+  "description": "Automated UI testing suite for Redfin search functionality using Playwright + TypeScript + Stealth Plugin.",
+  "scripts": {
+    "install:pw": "npx playwright install --with-deps",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test tests/ui --headed --project=Chromium",
+    "report": "playwright show-report",
+    "bootstrap:storage": "ts-node scripts/bootstrap-storage.ts"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.55.1",
-    "@types/node": "^24.5.2"
-  }
+    "@playwright/test": "^1.46.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "ui-automation",
+    "redfin",
+    "stealth",
+    "avalabs-assessment"
+  ],
+  "author": "Rava Razavi"
 }

@@ -1,0 +1,443 @@
+{
+  "cookies": [
+    {
+      "name": "RF_BROWSER_ID",
+      "value": "6XFEzq2dQw654qeHOl-c9Q",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1794506012.739126,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "RF_VISITED",
+      "value": "false",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RF_TRAFFIC_SEGMENT",
+      "value": "non-organic",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1759946312.738013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RF_BROWSER_ID_GREAT_FIRST_VISIT_TIMESTAMP",
+      "value": "2025-10-08T10%3A53%3A32.673117",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1791482012.739204,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "RF_BID_UPDATED",
+      "value": "1",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1761155612.739255,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "33nHerAR2BoTOd5RUO6p7yguLC1",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1793642013.174295,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__pdst",
+      "value": "f9ad54e5f55249a49de7ef48866d93b3",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1791482013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "RF_LAST_NAV",
+      "value": "1",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1759946013376.746765676216064664",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1767722013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1760550813.404016,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "value": "1",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ttp",
+      "value": "01K72F9YPRMTWGET9BBZJ4GT45_.tt.1",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "27AE668DA5B96AAB26EF70F2A4326B34",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1793642013.403994,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_scor_uid",
+      "value": "5b44febe32c24d629d1e28c0949940e9",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642013,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OTGPPConsent",
+      "value": "DBABBg~BUoAAAJY.QA",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1791482013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FEED_COUNT",
+      "value": "%5B%22%22%2C%22f%22%5D",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1759947213,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UID",
+      "value": "171be7c4de6b398ad90423c1759946013",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1793642013.444985,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XID",
+      "value": "171be7c4de6b398ad90423c1759946013",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1793642013.445003,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://redfin.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "audS",
+      "value": "t",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1759946613,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "b5036c90a46f11f082bffd362b2c6d76|1s59d32|2|fzz|0|2107",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1760032413,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Wed+Oct+08+2025+13%3A53%3A33+GMT-0400+(Eastern+Daylight+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0ffcd604-5f1b-44cd-993c-685e4f067c92&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.redfin.com%2F&GPPCookiesCount=1&groups=C0001%3A1%2CC0003%3A1%2CSPD_BG%3A1%2CC0002%3A1%2CC0004%3A1",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1791482013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid",
+      "value": "1759946013401::OHFylA7KqfL9mEgvsams.1.1759946013626.0",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid_C95K9BJC77U9N0P94330",
+      "value": "1759946013401::DVzmu79Taxv53RmScy4X.1.1759946013626.0",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.796659532.1759946014",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1767722014,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_928P0PZ00X",
+      "value": "GS2.1.s1759946013$o1$g0$t1759946013$j60$l0$h0",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1794506013.728232,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AMP_TOKEN",
+      "value": "%24NOT_FOUND",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1759949613,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1549234872.1759946014",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1794506013.800418,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.890726996.1759946014",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1760032413,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dc_gtm_UA-294985-1",
+      "value": "1",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1759946073,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1775498013.851807,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://redfin.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "RF_BROWSER_CAPABILITIES",
+      "value": "%7B%22screen-size%22%3A4%2C%22events-touch%22%3Afalse%2C%22ios-app-store%22%3Afalse%2C%22google-play-store%22%3Afalse%2C%22ios-web-view%22%3Afalse%2C%22android-web-view%22%3Afalse%7D",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1762538013,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkz5hWTotS17bsoxBwCSqWsodWlbXZW_gd0NSIEJ9m4ZK19y-St_Cv1sYcJ",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1794506013.876034,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "aws-waf-token",
+      "value": "f3fb37b1-1b38-4a9d-bcc5-32b7c890b17b:EQoAsPZ89OybAAAA:AgdM11pFFdPI2G3BDD7m6ZNmNuNJbU/CRIEexuH25ZAX3kPkppqGhlACXQuCKdXVkpPGylFDuMZdC2GHlyrnYiBHwU5ZCeRa6D9kuymNp2pmCeKdwWfZghzzqGraUiugvpBu85liA2UbdUMbCXIdr5Q24Lnx8BkN0vknlIlx40sDjYkknV0egv92mPcF5tlx45krvNKHE5aPFLeIX8JvAXcEEFNdkkIZOe4IuN3pyhVEemcFzpSgClhKAhbbdrwotBLTt3v7YKnPiATG/qQz",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1760291614,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "b5037270a46f11f0a53ad15ecdc5d827|t00eip|1759946015091|1|1|bat.bing.com/p/conversions/c/k",
+      "domain": ".redfin.com",
+      "path": "/",
+      "expires": 1793642015,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RF_CORVAIR_LAST_VERSION",
+      "value": "597.0.0",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1791482015.87425,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=2&id=d47e76f2-5b80-4f19-bcbe-078f7a992166&created=1759946013314&expire=1759946913314",
+      "domain": "www.redfin.com",
+      "path": "/",
+      "expires": 1759946917,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.redfin.com",
+      "localStorage": [
+        {
+          "name": "_nxt_id.621a",
+          "value": "d6920c2d-b3f2-4ed5-8c23-0db3cfe51797.1759946013.1.1759946013.1759946013.ee27ccd1-3cd0-4645-b1df-18cfa13ccb43"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Mon, 02 Nov 2026 17:53:35 GMT"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1759946013379"
+        },
+        {
+          "name": "awswaf_session_storage",
+          "value": "f3fb37b1-1b38-4a9d-bcc5-32b7c890b17b:EQoAsPZ89O2bAAAA:5K9CsZI9pQPoq2mhGJ4rg94hwZPhpz+ronjZdohoQ/UAybkRi8rfvmifP0AVNMRzG8tImbvc6630UU6FDcu76JIQ4jZFE2xQcSy48zCeOZJkMvykt2vglA6YxHaa90CKEjfCWZeyETewro5VyyrVdJcB0KcPKDd/zDR8lKvGaDHhBGbvU9dg+EFml91Fmqkh07tVIhzJvrtpjCLsnl0Z+IOuBde2OqJYqziYEDuCNVc5CXUzy7ngOsp8a0/01ReN/yednL+HlhihavlPXonlANyE0uYEXuYPv/TdLrCtl21YRJHKVnAxD5KGZ9Y7l2RLBOMMXMytUOuRDR+8GU0Q05Km1/9w7osI62GjPVtrhGApTnT4Mt/FNPRZfcVFEMawWbZKOMJXPt+fcW3Wu+qmAH3XIGsZoUif3FByJuts/WC05C5uEbLHw38HnizVBQ4DdfgdjwiiTcDQLVGc1xSQWkQ8DGO8UmRaFKhkAEbtm3WnTKYlVGcAwVg+ZJDCCkmTgA=="
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":2,\"timeouts\":0,\"creationTimeMs\":1759946013723},\"expires\":1767722013723}}"
+        },
+        {
+          "name": "_uetsid",
+          "value": "b5036c90a46f11f082bffd362b2c6d76|1s59d32|2|fzz|0|2107"
+        },
+        {
+          "name": "_nxt_ses.621a",
+          "value": "*"
+        },
+        {
+          "name": "snowplowOutQueue_nf0_nf0_get.expires",
+          "value": "1823018013346"
+        },
+        {
+          "name": "FirstVisitDate",
+          "value": "WSH2075306013347\"2025-10-08T17:53:33.347Z\""
+        },
+        {
+          "name": "_nxt_ses.621a.expires",
+          "value": "1759947813206"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1759946013373"
+        },
+        {
+          "name": "snowplowOutQueue_nf0_nf0_get",
+          "value": "[]"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Thu, 09 Oct 2025 17:53:33 GMT"
+        },
+        {
+          "name": "_uetvid",
+          "value": "b5037270a46f11f0a53ad15ecdc5d827|t00eip|1759946015091|1|1|bat.bing.com/p/conversions/c/k"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "awswaf_token_refresh_timestamp",
+          "value": "1759946013593"
+        },
+        {
+          "name": "_nxt_id.621a.expires",
+          "value": "1823018013206"
+        }
+      ]
+    }
+  ]
+}
