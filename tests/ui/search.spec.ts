@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 import { HomePage } from '../../src/pageObjects/HomePage';
 import { ResultsPage } from '../../src/pageObjects/ResultsPage';
 
-test.describe.configure({ mode: 'serial' });
 
 test.describe('Redfin Search Functionality - Final Suite', () => {
   test('Search by ZIP code 22304', async ({ page }) => {
