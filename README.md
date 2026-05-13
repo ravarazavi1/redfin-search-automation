@@ -1,7 +1,7 @@
 # 🏠 Redfin Search UI Automation (Playwright + TypeScript)
 
 **Author:** Rava Razavi  
-**Project:** Avalabs QA Take-Home — Final Submission  
+**Project:** Redfin Search UI Automation
 **Framework:** Playwright + TypeScript + Page Object Model  
 
 
