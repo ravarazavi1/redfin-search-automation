@@ -1,5 +1,7 @@
 # Redfin Search Automation — Enterprise Playwright Framework
 
+[![Playwright Tests](https://github.com/ravarazavi1/redfin-search-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/ravarazavi1/redfin-search-automation/actions/workflows/playwright.yml)
+
 **Author:** Rava Razavi  
 **Stack:** Playwright · TypeScript · Claude AI (Anthropic SDK)  
 **Purpose:** Portfolio showcase — senior SDET practices at scale
