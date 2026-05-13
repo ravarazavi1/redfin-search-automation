@@ -3,7 +3,7 @@
 **Author:** Rava Razavi  
 **Project:** Avalabs QA Take-Home — Final Submission  
 **Framework:** Playwright + TypeScript + Page Object Model  
-**Focus:** Human-like automation + graceful anti-bot handling
+
 
 ---
 
