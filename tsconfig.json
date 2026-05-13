@@ -6,8 +6,19 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures/*":    ["src/lib/fixtures/*"],
+      "@workflows/*":   ["src/lib/workflows/*"],
+      "@pageObjects/*": ["src/lib/pageObjects/*"],
+      "@helpers/*":     ["src/lib/helpers/*"],
+      "@interface/*":   ["src/lib/interface/*"],
+      "@dataModels/*":  ["src/lib/dataModels/*"],
+      "@ai/*":          ["src/ai/*"],
+      "@endpointObjects/*": ["src/lib/endpointObjects/*"]
+    },
     "types": ["node"],
     "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "include": ["src", "tests", "scripts", "types"]
+  "include": ["src", "tests", "scripts", "types", "src/ai"]
 }

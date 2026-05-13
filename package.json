@@ -1,16 +1,32 @@
 {
   "name": "redfin-playwright",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "commonjs",
-  "description": "Automated UI testing suite for Redfin search functionality using Playwright + TypeScript + Stealth Plugin.",
+  "description": "Enterprise-grade Playwright UI test framework for Redfin search — layered architecture (interfaces, page objects, workflows, assertions, scenarios) showcasing senior SDET + AI practices.",
   "scripts": {
     "install:pw": "npx playwright install --with-deps",
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:ui": "playwright test tests/ui --headed --project=Chromium",
+
+    "test": "playwright test --project=web-chromium",
+    "test:web": "playwright test --project=web-chromium",
+    "test:headed": "playwright test --project=web-chromium --headed",
+    "test:search": "playwright test --project=web-chromium --grep=@search",
+    "test:regression": "playwright test --project=web-chromium --grep=@regression",
+    "test:negative": "playwright test --project=web-chromium --grep=@negative",
+    "test:firefox": "playwright test --project=web-firefox",
+    "test:webkit": "playwright test --project=web-webkit",
+    "test:all-browsers": "playwright test --project=web-chromium --project=web-firefox --project=web-webkit",
+
+    "test:mocked": "playwright test --project=ui-mocked",
+    "test:api": "playwright test --project=api-census",
+    "test:all": "playwright test --project=ui-mocked --project=api-census --project=web-chromium",
+
+    "ai:report": "ts-node scripts/ai-report.ts",
+    "ai:generate": "ts-node scripts/ai-generate.ts",
+
     "report": "playwright show-report",
-    "bootstrap:storage": "ts-node scripts/bootstrap-storage.ts"
+    "bootstrap:storage": "ts-node scripts/bootstrap-storage.ts",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",
@@ -25,8 +41,11 @@
     "typescript",
     "ui-automation",
     "redfin",
-    "stealth",
-    "avalabs-assessment"
+    "layered-architecture",
+    "senior-sdet"
   ],
-  "author": "Rava Razavi"
+  "author": "Rava Razavi",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0"
+  }
 }

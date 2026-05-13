@@ -1,0 +1,1943 @@
+{
+  "config": {
+    "configFile": "/Users/rava/redfin-search-automation/playwright.config.ts",
+    "rootDir": "/Users/rava/redfin-search-automation",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/rava/redfin-search-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "ui-mocked",
+        "name": "ui-mocked",
+        "testDir": "/Users/rava/redfin-search-automation/src/tests/ui/mocked",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/rava/redfin-search-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "web-chromium",
+        "name": "web-chromium",
+        "testDir": "/Users/rava/redfin-search-automation/src/tests/ui/regression",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/rava/redfin-search-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "web-firefox",
+        "name": "web-firefox",
+        "testDir": "/Users/rava/redfin-search-automation/src/tests/ui/regression",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/rava/redfin-search-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "web-webkit",
+        "name": "web-webkit",
+        "testDir": "/Users/rava/redfin-search-automation/src/tests/ui/regression",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/rava/redfin-search-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api-census",
+        "name": "api-census",
+        "testDir": "/Users/rava/redfin-search-automation/src/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+      "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Redfin Search — Network Mocked Suite",
+          "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "SRCH-TC-M001 — [Mocked] ZIP 22304 results page shows Alexandria header and search input",
+              "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+              "line": 24,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "[Mocked] ZIP 22304 results page shows Alexandria header and search input",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "mocked",
+                    "search",
+                    "mocked",
+                    "regression",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Mocked (page.route() — no live Redfin traffic)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-M001",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 26,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "ui-mocked",
+                      "projectName": "ui-mocked",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2510,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[MOCK] Intercept + navigate to ZIP 22304 fixture page",
+                              "duration": 2090
+                            },
+                            {
+                              "title": "[ASSERT] Validate mocked results page content",
+                              "duration": 2
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:12.329Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Mocked (page.route() — no live Redfin traffic)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-M001",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 26,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "ecf56b157f231828cbd6-59b6a0c80d306855e3a0",
+                  "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                  "line": 26,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-M002 — [Mocked] ZIP 22201 results page shows Arlington header and search input",
+              "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+              "line": 24,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "[Mocked] ZIP 22201 results page shows Arlington header and search input",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "mocked",
+                    "search",
+                    "mocked",
+                    "regression",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Mocked (page.route() — no live Redfin traffic)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-M002",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 26,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "ui-mocked",
+                      "projectName": "ui-mocked",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2344,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[MOCK] Intercept + navigate to ZIP 22201 fixture page",
+                              "duration": 2070
+                            },
+                            {
+                              "title": "[ASSERT] Validate mocked results page content",
+                              "duration": 1
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:15.478Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Mocked (page.route() — no live Redfin traffic)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-M002",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 26,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "ecf56b157f231828cbd6-651cd8f4f4764967912e",
+                  "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                  "line": 26,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-M003 — [Mocked] ZIP 98101 results page shows Seattle header and search input",
+              "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+              "line": 24,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "[Mocked] ZIP 98101 results page shows Seattle header and search input",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "mocked",
+                    "search",
+                    "mocked",
+                    "regression",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Mocked (page.route() — no live Redfin traffic)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-M003",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 26,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "ui-mocked",
+                      "projectName": "ui-mocked",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2347,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[MOCK] Intercept + navigate to ZIP 98101 fixture page",
+                              "duration": 2088
+                            },
+                            {
+                              "title": "[ASSERT] Validate mocked results page content",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:17.827Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Mocked (page.route() — no live Redfin traffic)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-M003",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 26,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "ecf56b157f231828cbd6-59728ec1be93470561b9",
+                  "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                  "line": 26,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-M004 — [Mocked] Empty search stays on Redfin homepage",
+              "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+              "line": 24,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "[Mocked] Empty search stays on Redfin homepage",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "mocked",
+                    "search",
+                    "mocked",
+                    "regression",
+                    "validation",
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Mocked (page.route() — no live Redfin traffic)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-M004",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                            "line": 26,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "ui-mocked",
+                      "projectName": "ui-mocked",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 8273,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[MOCK] Intercept homepage + click search with no query",
+                              "duration": 7904
+                            },
+                            {
+                              "title": "[ASSERT] Validate stays on homepage",
+                              "duration": 1
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:20.177Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Mocked (page.route() — no live Redfin traffic)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Deterministic UI assertions via fixture HTML — zero bot detection risk",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-M004",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                                "line": 26,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "ecf56b157f231828cbd6-82d51e9960672e28cb74",
+                  "file": "src/tests/ui/mocked/search/mockedSearch.ui.spec.ts",
+                  "line": 26,
+                  "column": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "src/tests/ui/regression/search/search.ui.spec.ts",
+      "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Redfin Search — Regression Suite",
+          "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "SRCH-TC-006 — Direct URL — ZIP 22304 results page shows Alexandria listings",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Direct URL — ZIP 22304 results page shows Alexandria listings",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "direct-url",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-006",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3251,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE] Direct URL: https://www.redfin.com/zipcode/22304/",
+                              "duration": 2919
+                            },
+                            {
+                              "title": "[ASSERT] Validate results page content",
+                              "duration": 4
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:28.900Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-006",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-5a0431baa5b4bd1d9160",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-007 — Direct URL — ZIP 22201 results page shows Arlington listings",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Direct URL — ZIP 22201 results page shows Arlington listings",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "direct-url",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-007",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3011,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE] Direct URL: https://www.redfin.com/zipcode/22201/",
+                              "duration": 2722
+                            },
+                            {
+                              "title": "[ASSERT] Validate results page content",
+                              "duration": 1
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:32.434Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-007",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-584f586f67c2357bc383",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-008 — Direct URL — ZIP 98101 results page shows Seattle listings",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Direct URL — ZIP 98101 results page shows Seattle listings",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "direct-url",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-008",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3076,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE] Direct URL: https://www.redfin.com/zipcode/98101/",
+                              "duration": 2798
+                            },
+                            {
+                              "title": "[ASSERT] Validate results page content",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:35.450Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-008",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-19b5ec1237b7304c6809",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-001 — Search-box ZIP 22304 — human-like typing with anti-bot resilience",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Search-box ZIP 22304 — human-like typing with anti-bot resilience",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "zip-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-001",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 23748,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [
+                            {
+                              "text": "[WARN] Oops dialog on homepage — closing and retrying once\n"
+                            },
+                            {
+                              "text": "[WARN] Still blocked after retry — graceful fallback (url: https://www.redfin.com/)\n"
+                            }
+                          ],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE + SEARCH] \"22304\" (mode: human)",
+                              "duration": 23332
+                            },
+                            {
+                              "title": "[ASSERT] Validate search results",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:33:38.536Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-001",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-c6e071adbf826303e9b9",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-002 — Search-box city Alexandria VA — human-like typing with anti-bot resilience",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Search-box city Alexandria VA — human-like typing with anti-bot resilience",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "city-search",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-002",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 25712,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [
+                            {
+                              "text": "[WARN] Oops dialog on homepage — closing and retrying once\n"
+                            },
+                            {
+                              "text": "[WARN] Still blocked after retry — graceful fallback (url: https://www.redfin.com/)\n"
+                            }
+                          ],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE + SEARCH] \"Alexandria, VA\" (mode: human)",
+                              "duration": 25309
+                            },
+                            {
+                              "title": "[ASSERT] Validate search results",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:34:02.289Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-002",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-b3d8cd81682f30519511",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-003 — Empty search does not navigate away from homepage",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Empty search does not navigate away from homepage",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "validation",
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-003",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 9341,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE + EMPTY SEARCH] Click search with no query",
+                              "duration": 9042
+                            },
+                            {
+                              "title": "[ASSERT] Validate stays on homepage",
+                              "duration": 1
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:34:28.005Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-003",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-8176422ac8cc01b219ad",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "SRCH-TC-004 — Slow-typed ZIP 22304 — simulates human typing cadence",
+              "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+              "line": 22,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Slow-typed ZIP 22304 — simulates human typing cadence",
+                  "ok": true,
+                  "tags": [
+                    "search",
+                    "ui",
+                    "search",
+                    "regression",
+                    "slow-type",
+                    "anti-bot"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 12,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "SRCH-TC-004",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 23649,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [
+                            {
+                              "text": "[WARN] Oops dialog on homepage — closing and retrying once\n"
+                            },
+                            {
+                              "text": "[WARN] Still blocked after retry — graceful fallback (url: https://www.redfin.com/)\n"
+                            }
+                          ],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[NAVIGATE + SEARCH] \"22304\" (mode: slow)",
+                              "duration": 23194
+                            },
+                            {
+                              "title": "[ASSERT] Validate search results",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:34:37.351Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 12,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "SRCH-TC-004",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/ui/regression/search/search.ui.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "0d09281e6cc081a0026b-7fba646a64b4e366a5d0",
+                  "file": "src/tests/ui/regression/search/search.ui.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "src/tests/api/regression/housing/housing.api.spec.ts",
+      "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Location Geocoding API — Regression Suite",
+          "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "GEO-TC-001 — Geocoding API — ZIP 22304 resolves to Alexandria, Virginia",
+              "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+              "line": 23,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Geocoding API — ZIP 22304 resolves to Alexandria, Virginia",
+                  "ok": true,
+                  "tags": [
+                    "api",
+                    "geocoding",
+                    "api",
+                    "geocoding",
+                    "regression",
+                    "location",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production (nominatim.openstreetmap.org)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "GEO-TC-001",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "api-census",
+                      "projectName": "api-census",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 111,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[API] GET Nominatim location for ZIP 22304",
+                              "duration": 101
+                            },
+                            {
+                              "title": "[ASSERT] Validate geocoding response",
+                              "duration": 4
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:35:01.482Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production (nominatim.openstreetmap.org)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "GEO-TC-001",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "985c2cc136fc1d430f70-56c57546c09095985181",
+                  "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "GEO-TC-002 — Geocoding API — ZIP 22201 resolves to Arlington, Virginia",
+              "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+              "line": 23,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Geocoding API — ZIP 22201 resolves to Arlington, Virginia",
+                  "ok": true,
+                  "tags": [
+                    "api",
+                    "geocoding",
+                    "api",
+                    "geocoding",
+                    "regression",
+                    "location",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production (nominatim.openstreetmap.org)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "GEO-TC-002",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "api-census",
+                      "projectName": "api-census",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 24,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[API] GET Nominatim location for ZIP 22201",
+                              "duration": 18
+                            },
+                            {
+                              "title": "[ASSERT] Validate geocoding response",
+                              "duration": 2
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:35:01.600Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production (nominatim.openstreetmap.org)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "GEO-TC-002",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "985c2cc136fc1d430f70-294dbc049a3425b7a1d5",
+                  "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "GEO-TC-003 — Geocoding API — ZIP 98101 resolves to Seattle, Washington",
+              "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+              "line": 23,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Geocoding API — ZIP 98101 resolves to Seattle, Washington",
+                  "ok": true,
+                  "tags": [
+                    "api",
+                    "geocoding",
+                    "api",
+                    "geocoding",
+                    "regression",
+                    "location",
+                    "happyPath"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production (nominatim.openstreetmap.org)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "GEO-TC-003",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "api-census",
+                      "projectName": "api-census",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 21,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[API] GET Nominatim location for ZIP 98101",
+                              "duration": 18
+                            },
+                            {
+                              "title": "[ASSERT] Validate geocoding response",
+                              "duration": 2
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:35:01.630Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production (nominatim.openstreetmap.org)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "GEO-TC-003",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "985c2cc136fc1d430f70-5b3b17e38c2e27742e26",
+                  "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "GEO-TC-004 — Geocoding API — ZIP 20814 resolves to Bethesda, Maryland",
+              "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+              "line": 23,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Geocoding API — ZIP 20814 resolves to Bethesda, Maryland",
+                  "ok": true,
+                  "tags": [
+                    "api",
+                    "geocoding",
+                    "api",
+                    "geocoding",
+                    "regression",
+                    "location"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production (nominatim.openstreetmap.org)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "GEO-TC-004",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "api-census",
+                      "projectName": "api-census",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 21,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[API] GET Nominatim location for ZIP 20814",
+                              "duration": 17
+                            },
+                            {
+                              "title": "[ASSERT] Validate geocoding response",
+                              "duration": 1
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:35:01.655Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production (nominatim.openstreetmap.org)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "GEO-TC-004",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "985c2cc136fc1d430f70-8795d88931fcdb85482d",
+                  "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "GEO-TC-005 — Geocoding API — invalid ZIP 00000 returns not found",
+              "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+              "line": 23,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Geocoding API — invalid ZIP 00000 returns not found",
+                  "ok": true,
+                  "tags": [
+                    "api",
+                    "geocoding",
+                    "api",
+                    "geocoding",
+                    "regression",
+                    "negative"
+                  ],
+                  "tests": [
+                    {
+                      "timeout": 120000,
+                      "annotations": [
+                        {
+                          "type": "Environment",
+                          "description": "Production (nominatim.openstreetmap.org)",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "Purpose",
+                          "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 10,
+                            "column": 6
+                          }
+                        },
+                        {
+                          "type": "TestRail",
+                          "description": "GEO-TC-005",
+                          "location": {
+                            "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                            "line": 25,
+                            "column": 11
+                          }
+                        }
+                      ],
+                      "expectedStatus": "passed",
+                      "projectId": "api-census",
+                      "projectName": "api-census",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 18,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [
+                            {
+                              "text": "[WARN] Nominatim: no results for ZIP 00000\n"
+                            }
+                          ],
+                          "retry": 0,
+                          "steps": [
+                            {
+                              "title": "[API] GET Nominatim location for ZIP 00000",
+                              "duration": 17
+                            },
+                            {
+                              "title": "[ASSERT] Validate geocoding response",
+                              "duration": 0
+                            }
+                          ],
+                          "startTime": "2026-05-13T19:35:01.680Z",
+                          "annotations": [
+                            {
+                              "type": "Environment",
+                              "description": "Production (nominatim.openstreetmap.org)",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "Purpose",
+                              "description": "Validate ZIP-to-city resolution — critical pre-condition for real estate search",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 10,
+                                "column": 6
+                              }
+                            },
+                            {
+                              "type": "TestRail",
+                              "description": "GEO-TC-005",
+                              "location": {
+                                "file": "/Users/rava/redfin-search-automation/src/tests/api/regression/housing/housing.api.spec.ts",
+                                "line": 25,
+                                "column": 11
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "985c2cc136fc1d430f70-10c5d052277d725f9720",
+                  "file": "src/tests/api/regression/housing/housing.api.spec.ts",
+                  "line": 25,
+                  "column": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-13T19:33:12.052Z",
+    "duration": 109657.844,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
