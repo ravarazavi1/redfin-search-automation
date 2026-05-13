@@ -74,6 +74,7 @@ interface NominatimResult {
     town?: string;
     village?: string;
     state?: string;
+    county?: string;
     country?: string;
     country_code?: string;
   };

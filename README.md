@@ -48,6 +48,16 @@ src/lib/workflows/api/housingData.workflows.ts   ← LocationDataWorkflows
 src/tests/api/regression/housing/               ← 5 tests incl. negative
 ```
 
+### Accessibility Audit (`npm run test:a11y`)
+
+axe-core WCAG 2.1 AA audit against the mocked pages. Because the fixtures are fully controlled HTML, violations are deterministic — any regression in the markup immediately shows up as a failing test. Asserts **zero violations** across all pages, including landmark structure, form labels, and color contrast.
+
+```
+src/lib/workflows/ui/a11y.workflows.ts        ← AxeBuilder wrapper → A11yResultDto
+src/lib/workflows/ui/a11yAssertions.assertions.ts  ← zeroCritical, maxViolations, ruleIds
+src/tests/ui/a11y/search/                     ← 5 tests: homepage + 3 ZIP pages + form controls
+```
+
 ### Layer 3 — Live UI Regression (`npm run test:web`)
 
 Full end-to-end suite against Redfin's production site. Handles Cloudfront WAF and Akamai bot detection via stealth patches, human-like typing, and graceful fallback assertions. When blocked, tests validate input retention rather than hard-failing.
@@ -177,8 +187,9 @@ npx playwright install --with-deps
 |---|---|
 | `npm run test:mocked` | Layer 1 — Network mocked UI (4 tests, ~16s) |
 | `npm run test:api` | Layer 2 — Geocoding API (5 tests, ~2s) |
+| `npm run test:a11y` | Accessibility audit — WCAG 2.1 AA via axe-core (5 tests) |
 | `npm run test:web` | Layer 3 — Live Redfin UI, Chromium (7 tests) |
-| `npm run test:all` | All three layers together (16 tests) |
+| `npm run test:all` | All layers together (21 tests) |
 | `npm run test:firefox` | Live UI on Firefox |
 | `npm run test:webkit` | Live UI on Safari/WebKit |
 | `npm run report` | Open Playwright HTML report |

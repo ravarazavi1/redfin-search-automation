@@ -36,6 +36,16 @@ export default defineConfig({
     },
   },
   projects: [
+    // ── Accessibility Audit — axe-core WCAG 2.1 AA on mocked pages ─────────
+    {
+      name: 'a11y',
+      testDir: './src/tests/ui/a11y',
+      use: {
+        ...devices['Desktop Chrome'],
+        channel: 'chrome',
+      },
+    },
+
     // ── Network-Mocked UI (Layer 1) — deterministic, zero bot risk ──────────
     {
       name: 'ui-mocked',

@@ -6,7 +6,6 @@
   "description": "Enterprise-grade Playwright UI test framework for Redfin search — layered architecture (interfaces, page objects, workflows, assertions, scenarios) showcasing senior SDET + AI practices.",
   "scripts": {
     "install:pw": "npx playwright install --with-deps",
-
     "test": "playwright test --project=web-chromium",
     "test:web": "playwright test --project=web-chromium",
     "test:headed": "playwright test --project=web-chromium --headed",
@@ -16,17 +15,15 @@
     "test:firefox": "playwright test --project=web-firefox",
     "test:webkit": "playwright test --project=web-webkit",
     "test:all-browsers": "playwright test --project=web-chromium --project=web-firefox --project=web-webkit",
-
     "test:mocked": "playwright test --project=ui-mocked",
     "test:api": "playwright test --project=api-census",
-    "test:all": "playwright test --project=ui-mocked --project=api-census --project=web-chromium",
-
+    "test:all": "playwright test --project=ui-mocked --project=api-census --project=a11y --project=web-chromium",
     "ai:report": "ts-node scripts/ai-report.ts",
     "ai:generate": "ts-node scripts/ai-generate.ts",
-
     "report": "playwright show-report",
     "bootstrap:storage": "ts-node scripts/bootstrap-storage.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:a11y": "playwright test --project=a11y"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",
@@ -46,6 +43,7 @@
   ],
   "author": "Rava Razavi",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.96.0"
+    "@anthropic-ai/sdk": "^0.96.0",
+    "@axe-core/playwright": "^4.11.3"
   }
 }
